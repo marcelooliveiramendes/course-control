@@ -34,11 +34,11 @@ const diasSemana = [
     { label: "Sexta-feira", value: "sexta" },
     { label: "Sábado", value: "sabado" }
 ];
-const periodos = [
-    { label: "Manhã", value: "manha" },
-    { label: "Tarde", value: "tarde" },
-    { label: "Noite", value: "noite" },
-];
+// const periodos = [
+//     { label: "Manhã", value: "manha" },
+//     { label: "Tarde", value: "tarde" },
+//     { label: "Noite", value: "noite" },
+// ];
   
 
 export const ModalCreateClass = ({ isOpen = false, onClose }: Modal) => {

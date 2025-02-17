@@ -9,6 +9,7 @@ export const Home = () => {
             <HomeButton label='Chamada' route="/"/>
             <HomeButton label='Turmas' route="/class"/>
             <HomeButton label='Alunos' route="/"/>
+            <HomeButton label='Cursos' route="/content"/>
         </div>
     </div>
   )
