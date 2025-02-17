@@ -1,0 +1,39 @@
+.form-group{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+
+    label{
+        font-size: 14px;
+        color: var(--white);
+        margin-bottom: 5px;
+        
+        &::first-letter{
+            text-transform: uppercase;
+        }
+    }
+
+    select{
+        height: 40px;
+        width: 100%;
+        outline: none;
+        background-color: transparent;
+        border: 1px solid #999;
+        border-radius: 5px;
+        padding: 0px 10px;
+        color: var(--white);
+        font-size: 16px;
+        appearance: none; // Remove o estilo padrão do sistema
+        -webkit-appearance: none;
+        -moz-appearance: none;
+
+        option {
+            background-color: white;
+            color: black;
+        }
+        
+    }
+}

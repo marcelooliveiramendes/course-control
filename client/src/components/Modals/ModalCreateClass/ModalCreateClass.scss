@@ -1,0 +1,11 @@
+.create-class-form{
+
+    .row{
+        display: flex;
+        gap: 10px;
+
+        &:not(:last-child){
+            margin-bottom: 20px;
+        }
+    }
+}
